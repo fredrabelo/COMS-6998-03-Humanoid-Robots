@@ -1,6 +1,11 @@
-# setting the environment
+# COMS 6998-03 HUMANOID ROBOTS, SPRING 2015
+# Columbia University
 
-## workspace
+
+
+## setting the environment
+
+### workspace
 > git clone or copy and paste 'humanoids_robots' on /home
  
 > catkin_make
