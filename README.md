@@ -3,7 +3,7 @@
 
 
 
-## setting the environment
+## setting up the environment
 
 ### workspace
 > git clone or copy and paste 'humanoids_robots' on /home
