@@ -1,21 +1,26 @@
+# setting the environment
 
-# testing provided examples
-# bring up Gazebo
-roslaunch pr2_gazebo pr2_empty_world.launch
+## workspace
+> git clone or copy and paste 'humanoids_robots' on /home
+ 
+> catkin_make
 
-# bring up moveit
-roslaunch pr2_moveit_config move_group.launch
+## testing the xamples
+### bring up Gazebo
+> roslaunch pr2_gazebo pr2_empty_world.launch
 
-# compile, source and run code
-catkin make
-source devel/setup.bash
-rosrun humanoids_robots <example>
+### if testing the move_arm code, bring up moveit
+> roslaunch pr2_moveit_config move_group.launch
+
+### compile, source and run code
+> source devel/setup.bash
+> rosrun humanoids_robots <example>
 
 
-# and for the homework:
+### As for the for the homework:
+bring up Gazebo, table and coke
+> roslaunch humanoids_robots pr2_gazebo_tablewithobject.launch
 
-roslaunch humanoids_robots pr2_gazebo_tablewithobject.launch
-
-# then you will have to work on your own code. 
-# You will have your own launch file that may include the above and also launches your node for moving the robot and picking up the coke
-
+### then you will have to work on your own code. 
+* you will have to create a new package "hw1" and a new launch file "everything.launch"
+* We will execute roslaunch hw1 everything.launch
