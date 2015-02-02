@@ -14,6 +14,7 @@
 
 ### compile, source and run code
 > source devel/setup.bash
+
 > rosrun humanoids_robots <example>
 
 
@@ -23,4 +24,5 @@ bring up Gazebo, table and coke
 
 ### then you will have to work on your own code. 
 * you will have to create a new package "hw1" and a new launch file "everything.launch"
+* your launch file may include above launch file and your(s) node(s)
 * We will execute roslaunch hw1 everything.launch
